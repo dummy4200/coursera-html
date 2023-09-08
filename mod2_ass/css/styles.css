@@ -1,1 +1,121 @@
+/* generel */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    background-color: #eeeeff;
+}
+
+header {
+    text-align: center;
+}
+
+.color-1 {
+    background-color: #ee7777;
+}
+
+.color-2 {
+    background-color: #77ee77;
+}
+
+.color-3 {
+    background-color: #7777ee;
+}
+
+/* Desktop */
+@media (min-width: 992px){
+    section div {
+        background-color: #dddddd;
+        margin: 10px;
+        width: 30%;
+        float: left;
+        position: relative;
+        border: solid 2px #333333;
+    }
+
+    div h2 {
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        padding: 10px;
+        border: solid 2px #333333;
+        width: 170px;
+        text-align: center;
+    }
+
+    div p {
+        margin-top: 50px;
+        padding: 10px;
+    }
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 991px){
+
+    section div {
+        background-color: #dddddd;
+        position: relative;
+        border: solid 2px #333333;
+        height: auto;
+        min-height: 100px;
+    }
+    
+    div h2 {
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        padding: 10px;
+        border: solid 2px #333333;
+        width: 150px;
+        text-align: center;
+    }
+
+    div p {
+        margin-top: 60px;
+        padding: 10px;
+    }
+
+    .col-ta-6 {
+        width: 44%;
+        margin: 1%;
+        float: left;
+    }
+
+    .col-ta-12 {
+        width: 90%;
+        margin: 1%;
+        float: left;
+    }
+}
+    
+
+
+/* mobile */
+@media (max-width: 767px) {
+    section div {
+            background-color: #888888;
+            position: relative;
+            border: solid 2px #333333;
+            height: auto;
+            min-height: 100px;
+            margin: 10px;
+        }
+    
+        div h2 {
+            position: absolute;
+            right: 0px;
+            top: 0px;
+            padding: 10px;
+            border: solid 2px #333333;
+            width:130px;
+            text-align: center;
+        }
+    
+        div p {
+            margin-top: 50px;
+            padding: 10px;
+        }
+}
