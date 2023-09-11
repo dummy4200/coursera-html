@@ -10,17 +10,37 @@
 
 header {
     text-align: center;
+    padding: 1em;
 }
 
 #container {
-    min-height: 600px;
-    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Module */
+.container {
+    width: 90%;
+    min-height: 600px;
+}
 
 .row {
     position: relative;
+    border: 1px solid #333;
+    background-color: #cccccc;
+}
+
+.row h2 {
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    border: 1px solid #333;
+    width: 125px;
+    text-align: center;
+}
+
+.row p {
+    padding: 40px 10px 10px 10px;
 }
 
 /* State */
