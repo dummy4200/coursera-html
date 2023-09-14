@@ -1,19 +1,25 @@
 @media (min-width: 768px) and (max-width: 991px) {
-   
+
+    #div1, #div2 {
+        margin-bottom: 15px;
+        padding: 10px;
+    }
+
     #div1 {
         width: 48%;
         float: left;
-        margin-bottom: 15px;
+        
     }
 
     #div2 {
-        width: 46%;
+        width: 48%;
         float: right;
         margin-bottom: 15px;
     }
 
     #div3 {
         overflow: hidden;
+        width: 100%;
     }
 
     .clear {
