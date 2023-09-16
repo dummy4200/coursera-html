@@ -1,5 +1,35 @@
-* {
-    clear: both;
-    margin: 0;
-    padding: 0;
+
+#test {
+    height: 100px;
+    width: 100%;
+}
+
+.navbar-header {
+    height:100px;
+}
+
+li {
+    border-bottom: 2px solid #222222;
+}
+
+li::after {
+    border: none;
+}
+
+.gray-theme {
+    background-color: #dfdfdf;
+    color: #222222;
+    border: 5px solid white;
+}
+
+.menu-item p {
+    padding: 0 1em 1em 1em;
+}
+
+.text-right {
+    padding-right: 20px;
+}
+
+.test {
+    background-color: yellow;
 }
